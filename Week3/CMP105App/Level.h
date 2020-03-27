@@ -14,6 +14,8 @@ public:
 	void handleInput(float dt);
 	void update(float dt);
 	void render();
+	sf::CircleShape circle;
+	float speed;
 
 private:
 	// Default functions for rendering to the screen.
